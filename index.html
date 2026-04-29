@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typewriter - Typing Speed Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-screen" class="screen">
+        <div class="start-container">
+            <h1>Typewriter</h1>
+            <p class="subtitle">Choose a book to test your typing speed</p>
+            <div class="best-score">Best Score: <span id="best-score">0</span> WPM</div>
+            <div class="book-list" id="book-list">
+                <!-- Books will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+    
+    <div id="test-screen" class="screen hidden">
+        <div class="container">
+            <header>
+                <h1>Typewriter</h1>
+                <div class="header-buttons">
+                    <button id="back-btn" class="back-btn">Back to Books</button>
+                    <button id="restart-btn" class="restart-top">Restart</button>
+                </div>
+            </header>
+            
+            <div class="test-area">
+                <div class="text-display" id="text-display" tabindex="0"></div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <span class="label">WPM:</span>
+                    <span id="wpm">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Accuracy:</span>
+                    <span id="accuracy">100%</span>
+                </div>
+                <div class="stat">
+    <span class="label">Time:</span>
+    <span id="time">0</span>s
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>
