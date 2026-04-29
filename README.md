@@ -27,7 +27,7 @@ Built with [Pretext](https://github.com/chenglou/pretext) - a delightfully minim
 ## 🚀 Getting Started
 
 # Open index.html in your browser
-# That's it. No build step. No npm install taking 5 minutes.
+# That's it. No build step. 
 🎮 How to Use
 Pick your poison - Choose a book from the dropdown
 Set your timer - 15s for quick tests, 120s if you're brave
